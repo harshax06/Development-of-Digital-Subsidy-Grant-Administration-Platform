@@ -3,7 +3,7 @@ public class DbInspector {
     public static void main(String[] args) throws Exception {
         String url = "jdbc:postgresql://aws-1-ap-south-1.pooler.supabase.com:5432/postgres";
         String user = "postgres.ckzcvhljbxsskhiemiki";
-        String password = "Maha@5900Akash@0706";
+        String password = "YOUR_PASSWORD";
         try (Connection conn = DriverManager.getConnection(url, user, password)) {
             System.out.println("Connected to PostgreSQL!");
             
